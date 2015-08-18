@@ -45,3 +45,4 @@ end
 
 gem 'grape'
 gem 'devise'
+gem 'doorkeeper', '~> 2.2.0'
