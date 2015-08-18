@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   use_doorkeeper
   devise_for :users
   root 'static_pages#home'
+  mount GrapeSwaggerRails::Engine => '/swagger'
   mount API => '/api'
 
   # The priority is based upon order of creation: first created -> highest priority.

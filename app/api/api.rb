@@ -16,4 +16,6 @@ class API < Grape::API
   get :hello do
     { hello: "world" }
   end
+
+  add_swagger_documentation(base_path: '/api', format: :json)
 end
