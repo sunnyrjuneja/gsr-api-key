@@ -47,4 +47,4 @@ the access token from above in api_key field. Click explore. Click hello. The
 api end point will drop down. Click get and then Try it out! The response will
 say you are not authenticated.
 
-![example](whatasunnyday.github.com/gsr-api-key/screenshot.png)
+![example](screenshot.png)
